@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjects">
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Math</item>
+    </string-array>
+    
+    <!-- Reminders start -->
+    <!-- TODO: implement actual lists -->
+    <string-array name="reminder_titles">
+        <item>Hydrogen Bonding</item>
+        <item>Title to study</item>
+    </string-array>
+    <string-array name="reminder_subjects">
+        <item>Chemistry</item>
+        <item>Some subject</item>
+    </string-array>
+    <string-array name="reminder_dates">
+        <item>Tmr</item>
+        <item>Fri</item>
+    </string-array>
+    <array name="reminder_subjectAvatars">
+        <item>@drawable/a_avatar</item>
+        <item>@drawable/b_avatar</item>
+    </array>
+    
+                  
+</resources>

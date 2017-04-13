@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+  android:layout_height="match_parent"
+  android:layout_width="match_parent"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/drawer"
+  android:fitsSystemWindows="true"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  tools:openDrawer="start">
+    
+    
+    <android.support.design.widget.CoordinatorLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    
+    
+        <android.support.design.widget.AppBarLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+          app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    
+            <android.support.v7.widget.Toolbar
+              android:id="@+id/toolbar"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              app:layout_scrollFlags="scroll|enterAlways" />
+    
+        </android.support.design.widget.AppBarLayout>
+    
+        <include layout="@layout/content_main"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+    
+    
+    <android.support.design.widget.NavigationView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:id="@+id/nav_view"
+      android:layout_gravity="start"
+      android:fitsSystemWindows="true"
+      app:menu="@menu/side_nav"/>
+    
+</android.support.v4.widget.DrawerLayout>

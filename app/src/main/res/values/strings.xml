@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ReVision</string>
+    <string name="reminders_section_header">Your Reminders</string>
+    <string name="nav_drawer_open">Open Nav Drawer</string>
+    <string name="nav_drawer_close">Close Nav Drawer</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginBottom="@dimen/card_padding"
+  >
+    <android.support.constraint.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:layout_editor_absoluteX="0dp"
+      tools:layout_editor_absoluteY="25dp">
+        
+        <TextView
+          android:id="@+id/reminder_title_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="8dp"
+          android:layout_marginTop="8dp"
+          android:text="TextView"
+          android:textColor="?android:attr/textColorPrimary"
+          android:textSize="@dimen/list_primary"
+          app:layout_constraintLeft_toRightOf="@+id/reminder_subject_avatar"
+          app:layout_constraintTop_toTopOf="parent"
+          android:layout_marginStart="8dp" />
+        
+        <TextView
+          android:id="@+id/reminder_subject_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginLeft="8dp"
+          android:text="TextView"
+          android:textColor="?android:attr/textColorSecondary"
+          android:textSize="@dimen/list_secondary"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintLeft_toRightOf="@+id/reminder_subject_avatar"
+          app:layout_constraintTop_toBottomOf="@+id/reminder_title_text"
+          android:layout_marginStart="8dp" />
+        
+        <ImageView
+          android:id="@+id/reminder_subject_avatar"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_marginLeft="8dp"
+          app:layout_constraintBottom_toBottomOf="@+id/reminder_subject_text"
+          app:layout_constraintDimensionRatio="w,1:1"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintTop_toTopOf="@+id/reminder_title_text"
+          app:srcCompat="@drawable/a_avatar"
+          android:layout_marginStart="8dp" />
+        
+        <TextView
+          android:id="@+id/reminder_date_text"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_marginBottom="8dp"
+          android:layout_marginRight="7dp"
+          android:layout_marginTop="8dp"
+          android:gravity="center_vertical"
+          android:text="TextView"
+          android:textAlignment="viewEnd"
+          android:textColor="?android:attr/textColorPrimary"
+          android:textSize="@dimen/list_primary"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:layout_marginEnd="7dp" />
+    
+    
+    </android.support.constraint.ConstraintLayout>
+    
+</android.support.v7.widget.CardView>
+
