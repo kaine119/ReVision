@@ -6,13 +6,13 @@
         <item>Math</item>
     </string-array>
     
-    <!-- Reminders start -->
+    <!-- Review list start -->
     <!-- TODO: implement actual lists -->
-    <string-array name="reminder_titles">
+    <string-array name="review_topic_titles">
         <item>Hydrogen Bonding</item>
         <item>Title to study</item>
     </string-array>
-    <string-array name="reminder_subjects">
+    <string-array name="review_topic_subjects">
         <item>Chemistry</item>
         <item>Some subject</item>
     </string-array>
@@ -20,7 +20,7 @@
         <item>Tmr</item>
         <item>Fri</item>
     </string-array>
-    <array name="reminder_subjectAvatars">
+    <array name="review_topic_subjectAvatars">
         <item>@drawable/a_avatar</item>
         <item>@drawable/b_avatar</item>
     </array>
