@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         
         
         
-        // Reminders
+        // Weekly Reviews
         // TEMPORARY: populate the list from an array resource
         // TODO: actually implement a proper list.
         Resources resources = getResources();
